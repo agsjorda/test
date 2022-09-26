@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Article from "./component/Article";
+import Article from "../component/Article";
 
 export const TopScreen = () => {
   const list = [
@@ -27,8 +27,6 @@ export const TopScreen = () => {
       >
         <Link to="/article">New Article</Link>
       </div>
-      <button>edit</button>
-      <button>delete</button>
     </div>
   );
 };

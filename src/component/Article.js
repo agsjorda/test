@@ -12,6 +12,10 @@ const Article = ({ title, content }) => {
       <div>
         <button className="bg-red-500 px-8 my-4 rounded-lg">Post</button>
       </div>
+      <div className="flex justify-center items-center gap-5">
+        <button className="px-6 my-4 bg-green-800 rounded-lg">Edit</button>
+        <button className="px-6 my-4 bg-red-600 rounded-lg">Delete</button>
+      </div>
     </div>
   );
 };
