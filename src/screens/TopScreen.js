@@ -21,7 +21,10 @@ export const TopScreen = () => {
   return (
     <div className="flex flex-col justify-center items-center w-screen h-screen bg-slate-500">
       {articles}
-      <div onClick={createArticleHandler}>
+      <div
+        className="bg-blue-600 px-6 my-4 rounded-lg"
+        onClick={createArticleHandler}
+      >
         <Link to="/article">New Article</Link>
       </div>
       <button>edit</button>
